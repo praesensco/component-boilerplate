@@ -51,7 +51,7 @@ import fixture from './__fixtures__';
 storiesOf('{{ name }}', module)
 .add('default', () => (
   <{{ name }}
-    {..fixture}
+    {...fixture}
   />
 ));
 `,
