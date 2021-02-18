@@ -1,0 +1,14 @@
+{
+  "name": "component-boilerplate",
+  "version": "0.1.0",
+  "description": "Generate component in PRAESENS-matching syntax",
+  "dependencies": {
+    "arg": "^5.0.0"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "bin": {
+    "make-me-a-component": "./cli.js"
+  }
+}
